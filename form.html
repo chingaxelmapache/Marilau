@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1=0">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https: //fonts.googleapis.com/css2? family = Maven + Pro: wght @ 500 & display = swap "rel =" stylesheet ">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/estilos scss/styles.css">
+        <title>Marilau</title>
+    </head>
+<body>
+    <header>
+        <img class="foto__perfil" src="img/nuevafoto.png"" alt="foto de perfil">
+        <h1 class="title" >Marilau</h1>        
+    </header>
+
+    <nav>
+        <a class="barra__nav" href="index.html">Home</a>
+        <a class="barra__nav" href="catalogo.html">Galeria</a>
+        <a class="barra__nav" href="form.html">Contacto</a>
+    </nav>
+    <main>
+    </ul>  
+    <fieldset class="cuestionario">
+       <legend>Formulario de contacto</legend>
+       <div>
+           <label for="nombre">Escribe tu nombre</label>
+           <input type="text" name="nombre"><br>
+           <label for="apellido">Escribe tu apellido</label>
+           <input type="text" name="apellido">
+       </div>
+       <div>
+           <label for="email">Escribe tu Email</label>
+           <input type="email" name="email" required>
+       </div>
+       <div>
+           <label for="text">Telefono</label>
+           <input type="text" required>
+       </div>
+       <div>
+           <label for="Señala">Señala La Forma De Retiro</label><br>
+               <input type="Radio">Abono & Retiro en el local <br>
+               <input type="Radio">Take Away <br>
+               <input type="Radio">Envio a Domicilio
+       </div>
+       <div>
+           <label for="Partido">Localidad</label>
+           <select name="Partido" id="">
+               <option value="CABA">CABA</option>
+               <option value="San Isidro">San Isidro</option>
+               <option value="San Martin">San Martin</option>
+               <option value="Vicente Lopez">Vicente Lopez</option>
+           </select>
+       </div>
+       <div>
+           <label for="text">deja tu mensaje</label>
+           <textarea name="comentario" id="" cols="30" rows="20">Escribe aqui tu pedido</textarea>
+       </div>
+       <div>
+           <input type="submit" value="enviar datos">
+           <input type="reset"  value="Reset">
+       </div>
+    </fieldset>
+ </form>
+    </main>
+    
+</body>
+</html>
